@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #010208;
+  color: #bcc0d9;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.game_header {
+  margin: 1.75rem 0;
+  text-align: center;
+}
+
+.game_header > p {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.game_panel {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.game_pane {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  border: 1px solid black;
+  align-items: center;
+  align-content: center;
+  border-radius: 0.75rem;
+}
+
+.user {
+  background: #0d1024;
+}
+
+.computer {
+  background: #34290e;
+  color: whitesmoke;
+}
+
+.game_pane > h2,
+.guess_selector {
+  margin: 2rem;
+}
+
+.guess_selector {
+  font-size: 2rem;
+  width: 6rem;
+  height: 4rem;
+  text-align: center;
+}
+
+.toggler {
+  margin: 1rem 0.5rem;
+  border-radius: 0.75rem;
+  border: none;
+  padding: 1rem 2rem;
+  text-align: center;
+  background: #e2e4ef;
+}
+
+.game_pane > p {
+  margin: 1rem;
+}
+
+.game_control {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+.next_round {
+  margin: 2rem auto;
+  display: block;
+  background: #e2e4ef;
+  /* text-align: center; */
+}
+
+.instructions {
+  text-align: center;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  background: #050713;
+}
+
+.instruction {
+  margin: 0 1rem;
+  width: calc(100% - 30%);
+}
+
+.instruction > h3 {
+  margin: 1rem 0;
+}
